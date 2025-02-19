@@ -1,2 +1,22 @@
 # wocabot
-This script will automatically answer your tasks on wocabee, hihi.
+(python must be installed on your pc)!!!!!!
+1. Open requirements intall packages: cmd (win) or terminal (Mac/Linux)
+	- pip install selenium pillow opencv-python pytesseract
+2. Install Google Chrome & ChromeDriver
+	- Check Chrome Version
+	- Open Google Chrome 
+	- Go to chrome://settings/help
+	- Note the Chrome version (e.g., Version 120.0.1234.56)
+	- Download ChromeDriver
+	- Web for ChromeDriver: https://developer.chrome.com/docs/chromedriver/downloads
+	- Find your Chrome version
+	- Download it and install
+3. Modify answers.json (if need)
+4. Run script and enjoy :)
+	- python wocabot.py
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+1. just run wocabot.py and use it from terminal
+2. go to /dist/wocabottest.exe and run it with simple GUI (may not work)
+	- after start select your answers.json file
